@@ -8,6 +8,7 @@ namespace ConsoleVersion
 {
     internal class Card
     {
-        private int goldCost;
+        protected int goldCost;
+        public int GoldCost { get { return goldCost; } set { goldCost = value; } }
     }
 }

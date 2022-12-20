@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ConsoleVersion
 {
-    internal class Item
+    internal class Item : Card
     {
+        private string slot;
     }
 }
